@@ -15,124 +15,148 @@
             overflow: visible;
             width: 60px;
         }
+
         svg #heart {
-    transform-origin: center;
-    animation: animateHeartOut .3s linear forwards;
-}
-.checkbox:checked+label svg #heartgroup7 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #heartgroup6 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #heartgroup5 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #heartgroup4 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #heartgroup3 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #heartgroup2 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #heartgroup1 {
-    opacity: 1;
-    transition: .1s opacity .3s;
-}
-.checkbox:checked+label svg #main-circ {
-    transition: all 2s;
-    animation: animateCircle .3s linear forwards;
-    opacity: 1;
-}
-svg #main-circ {
-    transform-origin: 29.5px 29.5px;
-}
-.checkbox:checked+label svg #heart {
-   
-    fill: #E2264D;
-    animation: animateHeart .3s linear forwards .25s;
-}
+            transform-origin: center;
+            animation: animateHeartOut .3s linear forwards;
+        }
+
+        .checkbox:checked+label svg #heartgroup7 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup6 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup5 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup4 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup3 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup2 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup1 {
+            opacity: 1;
+            transition: .1s opacity .3s;
+        }
+
+        .checkbox:checked+label svg #main-circ {
+            transition: all 2s;
+            animation: animateCircle .3s linear forwards;
+            opacity: 1;
+        }
+
+        svg #main-circ {
+            transform-origin: 29.5px 29.5px;
+        }
+
+        .checkbox:checked+label svg #heart {
+
+            fill: #E2264D;
+            animation: animateHeart .3s linear forwards .25s;
+        }
 
 
-/*  */
-.checkbox:checked+label svg #heartgroup7 #heart1 {
-    transform: scale(0) translate(-30px, -15px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup7 #heart2 {
-    transform: scale(0) translate(-55px, -30px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup6 #heart1 {
-    transform: scale(0) translate(-30px, 0px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup6 #heart2 {
-    transform: scale(0) translate(-60px, -5px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup3 #heart2 {
-    transform: scale(0) translate(60px, 10px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup3 #heart1 {
-    transform: scale(0) translate(30px, 0px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup2 #heart2 {
-    transform: scale(0) translate(60px, -15px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup2 #heart1 {
-    transform: scale(0) translate(30px, -15px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup5 #heart1 {
-    transform: scale(0) translate(-10px, 20px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup5 #heart2 {
-    transform: scale(0) translate(-60px, 30px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup4 #heart1 {
-    transform: scale(0) translate(30px, 15px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup4 #heart2 {
-    transform: scale(0) translate(40px, 50px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup1 #heart1 {
-    transform: scale(0) translate(0, -30px);
-    transform-origin: 0 0 0;
-    transition: .5s transform .3s;
-}
-.checkbox:checked+label svg #heartgroup1 #heart2 {
-    transform: scale(0) translate(10px, -50px);
-    transform-origin: 0 0 0;
-    transition: 1.5s transform .3s;
-}
+        /*  */
+        .checkbox:checked+label svg #heartgroup7 #heart1 {
+            transform: scale(0) translate(-30px, -15px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup7 #heart2 {
+            transform: scale(0) translate(-55px, -30px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup6 #heart1 {
+            transform: scale(0) translate(-30px, 0px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup6 #heart2 {
+            transform: scale(0) translate(-60px, -5px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup3 #heart2 {
+            transform: scale(0) translate(60px, 10px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup3 #heart1 {
+            transform: scale(0) translate(30px, 0px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup2 #heart2 {
+            transform: scale(0) translate(60px, -15px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup2 #heart1 {
+            transform: scale(0) translate(30px, -15px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup5 #heart1 {
+            transform: scale(0) translate(-10px, 20px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup5 #heart2 {
+            transform: scale(0) translate(-60px, 30px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup4 #heart1 {
+            transform: scale(0) translate(30px, 15px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup4 #heart2 {
+            transform: scale(0) translate(40px, 50px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup1 #heart1 {
+            transform: scale(0) translate(0, -30px);
+            transform-origin: 0 0 0;
+            transition: .5s transform .3s;
+        }
+
+        .checkbox:checked+label svg #heartgroup1 #heart2 {
+            transform: scale(0) translate(10px, -50px);
+            transform-origin: 0 0 0;
+            transition: 1.5s transform .3s;
+        }
 
         .menu {
             list-style-type: none;
@@ -151,20 +175,21 @@ svg #main-circ {
             border-radius: 2px;
         }
 
-        @media(max-width:450px){
+        @media(max-width:450px) {
             .menu .share i {
-    height: 30px;
-    width: 30px;
-  
-    line-height: 29px;
+                height: 30px;
+                width: 30px;
+
+                line-height: 29px;
+            }
         }
-    }
+
         .menu .submenu {
             list-style-type: none;
             display: flex;
             opacity: 0;
-            position:relative;
-            z-index:4;
+            position: relative;
+            z-index: 4;
             transition: all ease-in-out 0.5s;
         }
 
@@ -251,9 +276,18 @@ svg #main-circ {
                             <div class="d-flex my-auto mx-auto">
 
 
-                                <a href="#" class="btn text-center btn-vi-details text-light">
-                                    VIEW DETAILS
-                                </a>
+
+                                <div class="clearfix">
+
+                                    <div class="c100 p50 blue big">
+                                        <span>50%</span>
+                                        <div class="slice">
+                                            <div class="bar"></div>
+                                            <div class="fill"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
 
@@ -289,7 +323,7 @@ svg #main-circ {
 
                         <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                         <br>
-                        <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                        <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                     </div>
@@ -304,50 +338,50 @@ svg #main-circ {
                                 Digital Marketing Revolution
                             </h2>
                             <div class="row mx-0">
-                            
-              <div class="heartbox mb-lg-0 mb-4"> <input type="checkbox" class="checkbox mr-5" id="checkbox">
-                <label class="mb-0" for="checkbox">
-                  <svg id="heart-svg" class="book-svg" viewBox="467 392 58 57" xmlns="">
-                    <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
-                      <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"></path>
-                      <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"></circle>
-                      <g id="heartgroup7" opacity="0" transform="translate(7 6)">
-                        <circle id="heart1" fill="#9CD8C3" cx="2" cy="6" r="2"></circle>
-                        <circle id="heart2" fill="#8CE8C3" cx="5" cy="2" r="2"></circle>
-                      </g>
-                      <g id="heartgroup6" opacity="0" transform="translate(0 28)">
-                        <circle id="heart1" fill="#CC8EF5" cx="2" cy="7" r="2"></circle>
-                        <circle id="heart2" fill="#91D2FA" cx="3" cy="2" r="2"></circle>
-                      </g>
-                      <g id="heartgroup3" opacity="0" transform="translate(52 28)">
-                        <circle id="heart2" fill="#9CD8C3" cx="2" cy="7" r="2"></circle>
-                        <circle id="heart1" fill="#8CE8C3" cx="4" cy="2" r="2"></circle>
-                      </g>
-                      <g id="heartgroup2" opacity="0" transform="translate(44 6)">
-                        <circle id="heart2" fill="#CC8EF5" cx="5" cy="6" r="2"></circle>
-                        <circle id="heart1" fill="#CC8EF5" cx="2" cy="2" r="2"></circle>
-                      </g>
-                      <g id="heartgroup5" opacity="0" transform="translate(14 50)">
-                        <circle id="heart1" fill="#91D2FA" cx="6" cy="5" r="2"></circle>
-                        <circle id="heart2" fill="#91D2FA" cx="2" cy="2" r="2"></circle>
-                      </g>
-                      <g id="heartgroup4" opacity="0" transform="translate(35 50)">
-                        <circle id="heart1" fill="#F48EA7" cx="6" cy="5" r="2"></circle>
-                        <circle id="heart2" fill="#F48EA7" cx="2" cy="2" r="2"></circle>
-                      </g>
-                      <g id="heartgroup1" opacity="0" transform="translate(24)">
-                        <circle id="heart1" fill="#9FC7FA" cx="2.5" cy="3" r="2"></circle>
-                        <circle id="heart2" fill="#9FC7FA" cx="7.5" cy="2" r="2"></circle>
-                      </g>
-                    </g>
-                  </svg>
-                </label> <input type="checkbox" class="checkbox" id="checkbox_2">
-                <input type="checkbox" class="checkbox" id="checkbox_3">
-              </div>
+
+                                <div class="heartbox mb-lg-0 mb-4"> <input type="checkbox"
+                                 data-productid="1" data-action="heart" class="checkbox mr-5" id="checkbox">
+                                    <label class="mb-0" for="checkbox">
+                                        <svg id="heart-svg" class="book-svg" viewBox="467 392 58 57" xmlns="">
+                                            <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                                                <path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"></path>
+                                                <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"></circle>
+                                                <g id="heartgroup7" opacity="0" transform="translate(7 6)">
+                                                    <circle id="heart1" fill="#9CD8C3" cx="2" cy="6" r="2"></circle>
+                                                    <circle id="heart2" fill="#8CE8C3" cx="5" cy="2" r="2"></circle>
+                                                </g>
+                                                <g id="heartgroup6" opacity="0" transform="translate(0 28)">
+                                                    <circle id="heart1" fill="#CC8EF5" cx="2" cy="7" r="2"></circle>
+                                                    <circle id="heart2" fill="#91D2FA" cx="3" cy="2" r="2"></circle>
+                                                </g>
+                                                <g id="heartgroup3" opacity="0" transform="translate(52 28)">
+                                                    <circle id="heart2" fill="#9CD8C3" cx="2" cy="7" r="2"></circle>
+                                                    <circle id="heart1" fill="#8CE8C3" cx="4" cy="2" r="2"></circle>
+                                                </g>
+                                                <g id="heartgroup2" opacity="0" transform="translate(44 6)">
+                                                    <circle id="heart2" fill="#CC8EF5" cx="5" cy="6" r="2"></circle>
+                                                    <circle id="heart1" fill="#CC8EF5" cx="2" cy="2" r="2"></circle>
+                                                </g>
+                                                <g id="heartgroup5" opacity="0" transform="translate(14 50)">
+                                                    <circle id="heart1" fill="#91D2FA" cx="6" cy="5" r="2"></circle>
+                                                    <circle id="heart2" fill="#91D2FA" cx="2" cy="2" r="2"></circle>
+                                                </g>
+                                                <g id="heartgroup4" opacity="0" transform="translate(35 50)">
+                                                    <circle id="heart1" fill="#F48EA7" cx="6" cy="5" r="2"></circle>
+                                                    <circle id="heart2" fill="#F48EA7" cx="2" cy="2" r="2"></circle>
+                                                </g>
+                                                <g id="heartgroup1" opacity="0" transform="translate(24)">
+                                                    <circle id="heart1" fill="#9FC7FA" cx="2.5" cy="3" r="2"></circle>
+                                                    <circle id="heart2" fill="#9FC7FA" cx="7.5" cy="2" r="2"></circle>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </label> <input type="checkbox" class="checkbox" id="checkbox_2">
+                                    <input type="checkbox" class="checkbox" id="checkbox_3">
+                                </div>
                                 <ul class="menu bottomLeft my-auto p-0">
                                     <li class="share right my-auto">
-                                        <svg class=" my-auto " xmlns="http://www.w3.org/2000/svg" width="30"
-                                         height="18.033" viewBox="0 0 30 18.033">
+                                        <svg class=" my-auto " xmlns="http://www.w3.org/2000/svg" width="30" height="18.033" viewBox="0 0 30 18.033">
                                             <path id="share" d="M19.773,9.51,11.556.5V5.876H9.809A9.808,9.808,0,0,0,0,15.684v2.849l.776-.85a13.924,13.924,0,0,1,10.285-4.538h.494V18.52Zm0,0" transform="translate(-0.001 -0.5)" fill="#fff" />
                                         </svg>
 
@@ -511,13 +545,13 @@ svg #main-circ {
                 </div>
             </div>
             <div class="row text-center text-light justify-content-center   mx-0 ">
-<div class="col-md-10 mx-auto mt-5 p-lg-5 p-3" style="border:8px solid #26ABE2;">
-<p class="h1 p-xl-5 abil-font" >
-Don’tlet people tell you that your business willfail.
-Increase your chances to 100% success by geing
-“Digital Marketing Revolution” today!
-</p>
-</div>
+                <div class="col-md-10 mx-auto mt-5 p-lg-5 p-3" style="border:8px solid #26ABE2;">
+                    <p class="h1 p-xl-5 abil-font">
+                        Don’tlet people tell you that your business willfail.
+                        Increase your chances to 100% success by geing
+                        “Digital Marketing Revolution” today!
+                    </p>
+                </div>
             </div>
         </div>
     </section>

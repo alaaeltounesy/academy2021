@@ -125,7 +125,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -163,7 +163,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -177,7 +177,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -215,7 +215,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -229,7 +229,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -267,7 +267,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -281,7 +281,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -319,7 +319,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -349,7 +349,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -387,7 +387,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -401,7 +401,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -439,7 +439,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -453,7 +453,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -491,7 +491,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -505,7 +505,7 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php"  class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -543,7 +543,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>

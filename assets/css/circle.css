@@ -40,8 +40,9 @@ body {
   height: 1em;
   border-radius: 50%;
   float: left;
-  margin: 0.4em;
-  background-color: #dfe8ed;
+ 
+  background-color:transparent;
+  /* gray fill empty bar */
 }
 .c100 *, .c100 *:before, .c100 *:after {
   -moz-box-sizing: content-box;
@@ -54,10 +55,15 @@ body {
   z-index: 1;
   left: 0;
   top: 0;
-  width: 5em;
+ /*  width: 5em;
   line-height: 5em;
   font-size: 0.2em;
-  color: #3c4761;
+ */
+  width: 3.33em;
+  line-height: 3.33em;
+  font-size: 0.3em;
+ 
+  color: #fff;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -76,14 +82,20 @@ body {
 }
 .c100:after {
   position: absolute;
-  top: 0.09em;
+ /*  top: 0.09em;
   left: 0.09em;
+ */
+  top: 0.07em;
+  left: 0.07em;
+  width: 0.86em;
+  height: 0.86em;
   display: block;
   content: " ";
   border-radius: 50%;
-  background-color: #ffffff;
-  width: 0.82em;
-  height: 0.82em;
+  background-color: transparent;
+  /* background num  */
+ /*  width: 0.82em;
+  height: 0.82em; */
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -706,23 +718,33 @@ body {
 .c100:hover {
   cursor: default;
 }
-.c100:hover > span {
+/* .c100:hover > span {
   width: 3.33em;
   line-height: 3.33em;
   font-size: 0.3em;
-  color: #3c4761;
-}
-.c100:hover:after {
+ 
+} */
+/* .c100:hover:after {
   top: 0.07em;
   left: 0.07em;
   width: 0.86em;
   height: 0.86em;
-}
+} */
 .c100.blue .bar, .c100.blue .fill {
-  border-color: #30bae7 !important;
-}
+  border-color: white !important;
+  position: relative;
+}/* .c100.blue .bar::after
+{content:"";
+  height: 10px;
+  width: 10px;
+  border-radius:50%;
+  top:0px;
+  left: 0px;
+  background-color:white;
+  position: absolute;
+} */
 .c100.blue:hover > span {
-  color: #3c4761;
+  color:#fff;
 }
 .c100.pink .bar, .c100.pink .fill {
   border-color: #d74680 !important;

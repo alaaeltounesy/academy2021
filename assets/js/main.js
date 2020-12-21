@@ -2,6 +2,49 @@
 
 (function () {
   'use strict';
+
+  var sociallinks = document.querySelectorAll(".adcard-btn");
+
+  sociallinks.forEach(function (item, index) {
+  
+    item.addEventListener('click', function (e) {
+      e.preventDefault();
+      var productid = item.dataset.productid;
+      var action = item.dataset.action;
+  
+      console.log(productid + " w " + action );
+      postData('productHandel.php', { id: productid, act: action }).then(data => {
+        console.log(data);
+        toastsmall("added to " + action);
+      })
+  
+    });
+  });
+
+  var msgtoast = document.querySelector(".small-toast-body");
+  function toastsmall(msg) {
+    $("#small-toast").fadeIn("show");
+    msgtoast.textContent = msg;
+    setTimeout(function () {
+      $("#small-toast").fadeOut("show");
+  
+    }, 3000);
+  }
+
+
+  $(".slide-toggle").click(function(){
+    $(".box").toggleClass('slideBembo');
+
+  });
+  /*  */
+  /*     $(" button.sign-btn").click(function () {
+     
+      $( ".sign-menu" ).fadeToggle("slow");
+   
+       
+    });
+ */
+    
 async function postData(url = '', data = {}) {
   // Default options are marked with *
   const response = await fetch(url, {
@@ -20,7 +63,7 @@ async function postData(url = '', data = {}) {
   return response.json(); // parses JSON response into native JavaScript objects
 }
 var subForm = document.querySelector(".contact-form");
-
+if(subForm)
 subForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -33,6 +76,24 @@ postData('test.php', data).then(data => {
     subForm.reset();
     console.log(data);
    responseMessage("Thank you " + data.name);
+  }
+});
+});
+
+var ajaxForm = document.querySelector(".ajaxForm");
+if(ajaxForm)
+ajaxForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var formdata = new FormData(ajaxForm);
+    var data = Object.fromEntries(formdata);
+
+postData('test.php', data).then(data => {
+
+  if (data.email) {
+    ajaxForm.reset();
+    console.log(data);
+   responseMessage("Thank you ");
   }
 });
 });
@@ -58,23 +119,22 @@ function responseMessage(msg) {
   });
 
     $(" .main-btn").click(function () {
-      $( ".main-menu" ).fadeIn();
      
-      $(".main-menu").css("display","flex");
+      $( ".main-menu" ).css("display","flex").removeClass("anim-down").addClass( "anim-up" );
+     /*  $(".main-menu").css("display","flex"); */
 
        
     });
 
     $(" .canel-menu").click(function () {
-  
-      $(".main-menu").fadeOut("slow");
+      $( ".main-menu" ).addClass( "anim-down" ).fadeOut("slow").removeClass("anim-up");
+    
     
 
        
     });
 
-
-        var owl = $('.owl-carousel');
+    var owl = $('.owl-carousel');
         owl.owlCarousel({
             navText: ["<img src='./assets/img/prev.png'>",
             "<img src='./assets/img/next.png'>"],
@@ -118,6 +178,7 @@ function responseMessage(msg) {
             console.warn('Something went wrong.', err);
         });
     }
+    
     const aElE = document.querySelectorAll('.ajax');
     aElE.forEach(function (ele) {
         ele.addEventListener('click', function (e) {
@@ -130,10 +191,6 @@ function responseMessage(msg) {
 })();
 
 
-  
-
-  
-  
   
   $(document).ready(function () {
 

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" id="app">
 <?php include "header-links.php" ?>
+
 <head>
- 
+
     <title>Academy Rewardlion</title>
     <style>
         .bg1 {
@@ -144,7 +145,7 @@
 </head>
 
 <body>
-<?php include "header.php" ?>
+    <?php include "header.php" ?>
 
     <div class="container-fluid px-0 bg1">
         <div class="row col-11 mx-lg-auto mx-0  px-0">
@@ -201,13 +202,14 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details.php"> <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            </a>
                         </div>
                         <div class="card-body">
                             <div class="details mb-3">
@@ -239,7 +241,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn  my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -255,13 +257,14 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <img src="assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details.php"> <img src="assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            </a>
                         </div>
                         <div class="card-body">
                             <div class="details mb-3">
@@ -293,7 +296,7 @@
 
                             <a href="Digital-Marketing-Revolution.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn  my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -308,13 +311,14 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <img src="assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details.php"> <img src="assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            </a>
                         </div>
                         <div class="card-body">
                             <div class="details mb-3">
@@ -346,7 +350,7 @@
 
                             <a href="E-commerce-Made-Billionaires.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn  my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -361,13 +365,14 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <img src="assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details.php"> <img src="assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            </a>
                         </div>
                         <div class="card-body">
                             <div class="details mb-3">
@@ -399,7 +404,7 @@
 
                             <a href="How-Software-Made-Billionaires.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn  my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -415,13 +420,15 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="#" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details.php"> <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+
+                            </a>
                         </div>
                         <div class="card-body">
                             <div class="details mb-3">
@@ -453,7 +460,7 @@
 
                             <a href="Business-State-of-Mind.html" class="buy-btn my-auto mx-auto ">buy now</a>
                             <br>
-                            <button class="adcard-btn my-auto mx-auto ">Add To Cart</button>
+                            <button data-productid="1" data-action="cart" class="adcard-btn  my-auto mx-auto ">Add To Cart</button>
 
 
                         </div>
@@ -474,7 +481,7 @@
                 <div class="col-md-10">
 
 
-                    <h2 class="display-3  abil-font text-light mb-5">
+                    <h2 class="display-3  abil-font text-light mt-lg-0 my-4 mb-lg-5">
                         More than Books!
                     </h2>
                     <h4 class="mb-4 org-col bold-font ">
@@ -591,7 +598,7 @@
             </a>
         </div>
     </div>
-  
+
     <script>
         function setProgress(ele, percent, tot) {
             var circle = document.querySelector(ele).querySelector('.circle');
@@ -639,6 +646,6 @@
 
             }, 1000)
     </script>
-  
 
-<?php include "footer.php" ?>
+
+    <?php include "footer.php" ?>

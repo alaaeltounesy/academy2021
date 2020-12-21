@@ -60,8 +60,7 @@
 
                 <h5 style="font-family: Montserrat; font-weight: 600; font-size: 16px;" class="navy mb-3 text-left">
                     Subscribe To Our Newsletter</h5>
-                <form class="ajaxForm mb-5" action="/api/v1/subscribe.php
-                  " id="newsForm">
+                <form class="ajaxForm mb-5" action="" id="newsForm">
                     <input type="hidden" value="Thank You For Subscribing!" class="formMsg">
 
                     <input style="height: calc(1.5em + .75rem + -2px);" type="email" class="form-control" name="email">

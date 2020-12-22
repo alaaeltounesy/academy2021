@@ -84,8 +84,8 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
       if (response.status === 'connected') { // Logged into your webpage and Facebook.
         testAPI();
       } else { // Not logged into your webpage or we are unable to tell.
-        document.getElementById('status').innerHTML = 'Please log ' +
-          'into this webpage.';
+        //document.getElementById('status').innerHTML = 'Please log ' +
+//'into this webpage.';
       }
     }
 
@@ -172,6 +172,21 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
   </script>
 
   <style>
+    .facebook-btn {
+  
+    display: inline-block;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    border: thin solid #B7BFC2;
+    white-space: nowrap;
+    padding: 7px 0px;
+    position: absolute;
+    top: 0;
+    color: white!important;
+    border: 1px solid white;
+    border-radius: 10px;
+}
     body {
       overflow-x: hidden;
       position: relative;
@@ -368,8 +383,11 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
 
                 <!--facebook-->
                 <div class="col-xl-6 col-md-7 col-12 mb-4 mx-auto">
-                  <div class="fb-login-button text-center" scope="public_profile,email" onlogin="checkLoginState();" data-size="large" data-button-type="login_with" data-layout="rounded" data-auto-logout-link="false" data-use-continue-as="false" data-width="100%"></div>
-                </div>
+              <button type="button" class="btn  col-11 facebook-btn" onclick="checkLoginState();">
+ log in 
+              </button>
+              
+              </div>
 
               </div>
             </div>
@@ -418,7 +436,7 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
       });
       return response.json(); // parses JSON response into native JavaScript objects
     }
-    $(document).ready(function() {
+    /* $(document).ready(function() {
 
       $(' .popup ').delay().fadeIn('slow');
       $(' .overlay ').delay().fadeIn('slow');
@@ -431,7 +449,7 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
         $(".popup ").hide(1000);
         $(".overlay ").hide(1000);
       });
-    });
+    }); */
   </script>
 </body>
 

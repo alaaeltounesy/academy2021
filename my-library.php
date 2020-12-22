@@ -34,30 +34,22 @@
             <div class="row col-10  mx-auto px-0">
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
                     <a href="book-details.php">
-                     
-                            <div class="img-card">
-
-
-                                <div class="lay-book  my-auto mx-auto">
-                                    <div class="d-flex my-auto mx-auto">
-
-
-                                        <div class="clearfix">
-
-                                            <div class="c100 p50 blue big">
-                                                <span>50%</span>
-                                                <div class="slice">
-                                                    <div class="bar"></div>
-                                                    <div class="fill"></div>
-                                                </div>
+                        <div class="img-card">
+                            <div class="lay-book  my-auto mx-auto">
+                                <div class="d-flex my-auto mx-auto">
+                                    <div class="clearfix">
+                                        <div class="c100 p20 blue big">
+                                            <span>20%</span>
+                                            <div class="slice">
+                                                <div class="bar"></div>
+                                                <div class="fill"></div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
-
-                                <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </div>
+                            <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                        </div>
                     </a>
                 </div>
 

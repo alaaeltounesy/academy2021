@@ -120,16 +120,21 @@ function responseMessage(msg) {
 
     $(" .main-btn").click(function () {
      
+      $( ".main-menu-c" ).show();
       $( ".main-menu" ).css("display","flex").removeClass("anim-down").addClass( "anim-up" );
-     /*  $(".main-menu").css("display","flex"); */
+/*       $( ".main-menu " ).css("display","flex").removeClass("anim-down").addClass( "anim-up" );
+ */     /*  $(".main-menu").css("display","flex"); */
 
        
     });
 
     $(" .canel-menu").click(function () {
-      $( ".main-menu" ).addClass( "anim-down" ).fadeOut("slow").removeClass("anim-up");
+      
+      $( ".main-menu" ).removeClass("anim-up").addClass( "anim-down");
     
-    
+    setTimeout(function(){
+      $( ".main-menu-c" ).hide();
+    },700)
 
        
     });
@@ -179,7 +184,7 @@ function responseMessage(msg) {
         });
     }
     
-    const aElE = document.querySelectorAll('.ajax');
+    const aElE = document.querySelectorAll('a');
     aElE.forEach(function (ele) {
         ele.addEventListener('click', function (e) {
             e.preventDefault();

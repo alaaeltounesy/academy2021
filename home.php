@@ -7,13 +7,13 @@
     <title>Academy Rewardlion</title>
     <style>
         .bg1 {
-            background-image: url("assets/img/bg1.png");
+            background-image: url("/themes/<?php echo sitedata('site_theme') ?>/assets/img/bg1.png");
             background-size: cover;
             background-position: center;
         }
 
         .bg2 {
-            background-image: url("assets/img/bg2.png");
+            background-image: url("/themes/<?php echo sitedata('site_theme') ?>/assets/img/bg2.png");
             background-size: cover;
             background-position: center;
         }
@@ -202,13 +202,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -257,13 +257,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -311,13 +311,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -365,13 +365,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -420,13 +420,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
 
                             </a>
                         </div>
@@ -498,7 +498,7 @@
                 </div>
 
 
-                <img src="assets/img/man1.png" class="man1 ">
+                <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/man1.png" class="man1 ">
 
                 <h3 class="bg-org org-box py-lg-4 px-lg-5 p-3  text-light">
                     CREATE A BIGGER LIFE FOR YOURSELF. AND WITH IT CAN <br>

@@ -33,7 +33,7 @@
             </div>
             <div class="row col-10  mx-auto px-0">
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
                             <div class="lay-book  my-auto mx-auto">
                                 <div class="d-flex my-auto mx-auto">
@@ -48,13 +48,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
 
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -75,13 +75,13 @@
                                 </div>
                             </div>
 
-                            <img src="assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
 
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -104,13 +104,13 @@
 
                             </div>
 
-                            <img src="assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
 
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
 
-                            <img src="assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                         </a>
                 </div>
@@ -150,7 +150,7 @@
             </div>
             <div class="row col-10  mx-auto px-0">
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -172,13 +172,13 @@
                                 </div>
                             </div>
 
-                            <img src="assets/img/c1.png" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/c1.png" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
 
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -200,13 +200,13 @@
                                 </div>
                             </div>
 
-                            <img src="assets/img/c2.png" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/c2.png" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
 
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -228,13 +228,13 @@
                                 </div>
                             </div>
 
-                            <img src="assets/img/c3.png" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/c3.png" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
 
                 <div class="card p-4 col-xl-3 mt-4 col-lg-6 col-md-8 mx-auto">
-                    <a href="book-details.php">
+                    <a href="book-details">
                         <div class="img-card">
 
 
@@ -256,7 +256,7 @@
                                 </div>
                             </div>
 
-                            <img src="assets/img/c4.png" class="card-img-top w-100 mb-3" alt="...">
+                            <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/c4.png" class="card-img-top w-100 mb-3" alt="...">
                         </div>
                     </a>
                 </div>
@@ -284,13 +284,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -339,13 +339,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -393,13 +393,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book3.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -447,13 +447,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book4.jpg" class="card-img-top w-100 mb-3" alt="...">
                             </a>
                         </div>
                         <div class="card-body">
@@ -502,13 +502,13 @@
                                 <div class="d-flex my-auto mx-auto">
 
 
-                                    <a href="book-details.php" class="btn text-center btn-vi-details text-light">
+                                    <a href="book-details" class="btn text-center btn-vi-details text-light">
                                         VIEW DETAILS
                                     </a>
                                 </div>
                             </div>
 
-                            <a href="book-details.php"> <img src="assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
+                            <a href="book-details"> <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book1.jpg" class="card-img-top w-100 mb-3" alt="...">
 
                             </a>
                         </div>

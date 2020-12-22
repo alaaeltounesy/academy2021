@@ -5,7 +5,7 @@
 
     <script src="OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
 
-    <script src="assets/js/main.min.js"></script>
+    <script src="/themes/<?php echo sitedata('site_theme') ?>/assets/js/main.min.js"></script>
 
     </body>
 

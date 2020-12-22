@@ -86,7 +86,7 @@ label{    margin: 0.7rem 0px;
     }
 
     span.icon {
-      background: url('assets/img/google.png') transparent 5px 50% no-repeat;
+      background: url('/themes/<?php echo sitedata('site_theme') ?>/assets/img/google.png') transparent 5px 50% no-repeat;
       display: inline-block;
       vertical-align: middle;
       width: 30px;
@@ -394,7 +394,7 @@ label{    margin: 0.7rem 0px;
       <div class="card col-12 col-xl-6 mt-4">
         <div class="card-body">
           <form method="POST" action="" class="col-md-9 mx-auto" onsubmit="return formValidation(this)">
-            <a href="/" class="d-flex justify-content-center"><img src="assets/img/logo-header.png"  alt=""></a><br><br>
+            <a href="/" class="d-flex justify-content-center"><img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/logo-header.png"  alt=""></a><br><br>
          
             <div class="md-form my-2">
               <div class="form-group"><label><i class="fa fa-user prefix grey-text"></i> Full name
@@ -520,7 +520,7 @@ label{    margin: 0.7rem 0px;
 
       <!-- image -->
       <div class="col-6 d-none d-xl-block p-0 m-0 ">
-        <img class="w-100 img" src="assets/img/reg.png" alt="">
+        <img class="w-100 img" src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/reg.png" alt="">
       </div>
       <!-- image -->
 
@@ -535,7 +535,7 @@ label{    margin: 0.7rem 0px;
 
     <script src="OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
 
-    <script src="assets/js/main.min.js"></script>
+    <script src="/themes/<?php echo sitedata('site_theme') ?>/assets/js/main.min.js"></script>
 
     </body>
 

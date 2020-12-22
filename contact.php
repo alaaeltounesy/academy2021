@@ -84,7 +84,7 @@
                 <div class="col-lg-5 d-lg-block d-none col-12  pl-lg-5 ">
 
 
-                    <img class="w-100 place-img" src="assets/img/place.jpg" alt="">
+                    <img class="w-100 place-img" src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/place.jpg" alt="">
 
                 </div>
             </div>
@@ -118,13 +118,13 @@
                 <div class="col-xl-2 d-xl-block d-none">
                 </div>
                 <div class="col-xl-5 col-lg-6 mt-lg-0 mt-4  ">
-                    <img src="assets/img/con-logo.png" class="con-logo my-5">
+                    <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/con-logo.png" class="con-logo my-5">
 
                     <a href="tel:+1(800)-876-8984" class="reg-font h4 text-light d-flex mb-5">
-                        <img src="assets/img/phone-call.svg" class="mr-3 ">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/phone-call.svg" class="mr-3 ">
                         +1 (800)-876-8984</a>
                     <a href="mailto:info@rewardlion.com" class="reg-font h4 text-light d-flex">
-                        <img src="assets/img/email.svg" class="mr-3 ">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/email.svg" class="mr-3 ">
                         info@rewardlion.com</a>
 <div class="w-100 d-lg-block d-none" style="height:150px;">
 
@@ -195,7 +195,7 @@
 
     <script src="OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
 
-    <script src="assets/js/main.min.js"></script>
+    <script src="/themes/<?php echo sitedata('site_theme') ?>/assets/js/main.min.js"></script>
 
 </body>
 

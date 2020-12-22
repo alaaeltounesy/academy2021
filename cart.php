@@ -104,7 +104,7 @@ button.coupon-btn:hover {
             </h3>
             <div class="row col-lg-11 py-4  text-center text-light mx-lg-auto mx-0 px-0  " style="border-bottom:1px solid #26ABE2;">
                 <div class="col-md-1 mb-md-0 mb-4 col-3 p-0">
-                    <img src="assets/img/book2.jpg" class="w-100">
+                    <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book2.jpg" class="w-100">
                 </div>
                 <div class="col-md-4  mb-4 col-9 my-md-auto">
                     <p class="text-center bold-font text-light my-auto">
@@ -125,14 +125,14 @@ button.coupon-btn:hover {
                 </div>
                 <div class="col-md-2 product-removal col-4 my-auto text-right ">
                     <button class="cancel-product mr-auto">
-                        <img src="assets/img/close.svg">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/close.svg">
                     </button>
                 </div>
             </div>
 
             <div class="row col-lg-11 py-4  text-center text-light mx-lg-auto mx-0 px-0  " style="border-bottom:1px solid #26ABE2;">
                 <div class="col-md-1 mb-md-0 mb-4 col-3 p-0">
-                    <img src="assets/img/book1.jpg" class="w-100">
+                    <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book1.jpg" class="w-100">
                 </div>
                 <div class="col-md-4  mb-4 col-9 my-md-auto">
                     <p class="text-center bold-font text-light my-auto">
@@ -153,7 +153,7 @@ button.coupon-btn:hover {
                 </div>
                 <div class="col-md-2 product-removal col-4 my-auto text-right ">
                     <button class="cancel-product mr-auto">
-                        <img src="assets/img/close.svg">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/close.svg">
                     </button>
                 </div>
             </div>
@@ -171,7 +171,7 @@ button.coupon-btn:hover {
                     </form>
                     <button class="proceed-btn col-12">
                    <a class="text-light" herf="#">
-                   PROCEED TO CHECKOUT <img src="assets/img/left-arrow.svg" class="ml-3" >
+                   PROCEED TO CHECKOUT <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/left-arrow.svg" class="ml-3" >
                    </a>
 
                     </button>

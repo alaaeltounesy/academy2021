@@ -33,8 +33,8 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
   <script src="https://apis.google.com/js/api:client.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/circle.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="/themes/<?php echo sitedata('site_theme') ?>/assets/css/circle.css">
+    <link rel="stylesheet" href="/themes/<?php echo sitedata('site_theme') ?>/assets/css/style.min.css">
  <script>
     var googleUser = {};
     var startApp = function() {
@@ -315,7 +315,7 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
 
           <!-- Material form register -->
           <form class="col-md-9 mx-auto" method="POST" action="">
-            <a href="/" class="d-flex justify-content-center"><img src="assets/img/logo-header.png"   alt=""></a><br><br>
+            <a href="/" class="d-flex justify-content-center"><img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/logo-header.png"   alt=""></a><br><br>
        
         
 
@@ -397,7 +397,7 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
       </div>
 
       <div class="col-6 d-none d-xl-block p-0 m-0 ">
-        <img class="w-100 img" src="assets/img/signin.png" alt="">
+        <img class="w-100 img" src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/signin.png" alt="">
       </div>
     </div>
   </div>
@@ -521,7 +521,7 @@ Our Directed Academy Is Specially Designed To Find The Shortest Path To Have All
   }
 
   span.icon {
-    background: url('assets/img/google.png') transparent 5px 50% no-repeat;
+    background: url('/themes/<?php echo sitedata('site_theme') ?>/assets/img/google.png') transparent 5px 50% no-repeat;
     display: inline-block;
     vertical-align: middle;
     width: 30px;

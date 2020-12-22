@@ -7,16 +7,16 @@
 
             <div class="col-lg-3 mx-0 row">
                 <div class="col-lg-12 col-md-5 p-0">
-                    <img class=" mb-5 " src="assets/img/logo-foot.png" alt="Logo">
+                    <img class=" mb-5 " src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/logo-foot.png" alt="Logo">
                 </div>
                 <div class="col-lg-12 col-md-7 p-0 my-md-auto my-3">
                     <h5 class="text-light bold-font mb-5">Get in touch!</h5>
 
                     <a href="tel:+1(800)-876-8984" class="reg-font text-light d-flex mb-4">
-                        <img src="assets/img/phone-call.svg" class="mr-3 ">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/phone-call.svg" class="mr-3 ">
                         +1 (800)-876-8984</a>
                     <a href="mailto:info@rewardlion.com" class="reg-font text-light d-flex">
-                        <img src="assets/img/email.svg" class="mr-3 ">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/email.svg" class="mr-3 ">
                         info@rewardlion.com</a>
 
 
@@ -137,9 +137,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script src="OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
+    <script src="/themes/<?php echo sitedata('site_theme') ?>/assets/js/owl.carousel.min.js"></script>
 
-    <script src="assets/js/main.min.js"></script>
+    <script src="/themes/<?php echo sitedata('site_theme') ?>/assets/js/main.min.js"></script>
 
     </body>
 

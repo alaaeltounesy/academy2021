@@ -291,7 +291,7 @@
                             </div>
                         </div>
 
-                        <img src="assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
+                        <img src="/themes/<?php echo sitedata('site_theme') ?>/assets/img/book2.jpg" class="card-img-top w-100 mb-3" alt="...">
                     </div>
                     <div class="card-body">
                         <div class="details mb-3">
